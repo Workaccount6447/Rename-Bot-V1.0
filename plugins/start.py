@@ -74,8 +74,7 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ]
-        ]
-                )
+        ])
             )
     elif data == "help":
         await query.message.edit_text(
